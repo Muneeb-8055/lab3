@@ -1,0 +1,16 @@
+using System;
+
+namespace PrintInfo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Muneeb ur rehman";
+            string rollNo = "24-ST_023";
+
+            Console.WriteLine("Name: " + name);
+            Console.WriteLine("Roll NO : " + rollNo);
+        }
+    }
+}
