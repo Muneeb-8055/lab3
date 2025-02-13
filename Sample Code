@@ -1,0 +1,29 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Displaying a welcome message
+        Console.WriteLine("Welcome to C# Programming!");
+
+        // Reading user input
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+
+        // Displaying a personalized greeting
+        Console.WriteLine($"Hello, {name}!");
+
+        // Performing a simple calculation
+        int num1 = 10;
+        int num2 = 5;
+        int sum = num1 + num2;
+
+        // Displaying the result
+        Console.WriteLine($"The sum of {num1} and {num2} is {sum}.");
+        
+        // Asking the user to press a key before exiting
+        Console.WriteLine("Press any key to exit.");
+        Console.ReadKey();
+    }
+}
