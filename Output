@@ -5,8 +5,8 @@ class Program
     static void Main()
     {
         // Displaying information
-        Console.WriteLine("Name: [Your Name]");
-        Console.WriteLine("Roll Number: [Your Roll Number]");
-        Console.WriteLine("Department: [Your Department]");
+        Console.WriteLine("Name: [Muhammad Ibraheeem Tahir]");
+        Console.WriteLine("Roll Number: [24-ST-09]");
+        Console.WriteLine("Department: [CS]");
     }
 }
